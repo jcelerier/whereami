@@ -70,7 +70,7 @@ extern "C" {
 #endif
 #if (_MSC_VER >= 1900)
 #include <stdbool.h>
-#else
+#elif (_MSC_VER > 0)
 #define bool int
 #define false 0
 #define true 1
